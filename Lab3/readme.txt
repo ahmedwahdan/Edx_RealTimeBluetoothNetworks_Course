@@ -20,15 +20,4 @@ Semaphores:
 	- Blocking semaphore:
 		- If more than one task is blocked on a resorce, the highest priority task will get 
 			the resouce once it's available
-=====================================================
-Fire the systick interrupt:
 
-Register 67: Interrupt Control and State (INTCTRL), offset 0xD04
-Note: This register can only be accessed from privileged mode.
-The INCTRL register provides a set-pending bit for the NMI exception, and set-pending and
-clear-pending bits for the PendSV and SysTick exceptions. In addition, bits in this register indicate
-the exception number of the exception being processed, whether there are preempted active
-exceptions, the exception number of the highest priority pending exception, and whether any interrupts
-are pending.			
-
-26 PENDSTSET RW  0   SysTick Set Pending
