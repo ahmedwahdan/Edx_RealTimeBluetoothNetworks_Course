@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: '001_OS_With_Suspend' 
+ * Project: '002_OS_With_Blocking' 
  * Target:  'Target 1' 
  */
 

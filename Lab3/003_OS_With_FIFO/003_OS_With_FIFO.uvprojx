@@ -426,11 +426,6 @@
               <FilePath>.\Semaphore.h</FilePath>
             </File>
             <File>
-              <FileName>CortexM.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\00-shared\inc\CortexM.h</FilePath>
-            </File>
-            <File>
               <FileName>FIFO.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\FIFO.c</FilePath>

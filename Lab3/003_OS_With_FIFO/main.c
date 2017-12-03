@@ -2,7 +2,7 @@
 #include "OS.h"
 #include "Task_User_Config.h"
 #include "Task.h"
-#include "../00-shared/inc/CortexM.h"
+#include "../../Shared/Edx_files/CortexM.h"
 #include "Semaphore.h"
 #include "FIFO.h"
 void Task1(void);

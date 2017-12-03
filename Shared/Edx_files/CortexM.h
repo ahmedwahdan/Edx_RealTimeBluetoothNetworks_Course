@@ -3,6 +3,9 @@
 // Daniel and Jonathan Valvano
 // February 7, 2016
 
+
+#include "TM4C123.h"
+#define SYSTICKPEND			(26U)
 #define STCTRL          (*((volatile uint32_t *)0xE000E010))
 #define STRELOAD        (*((volatile uint32_t *)0xE000E014))
 #define STCURRENT       (*((volatile uint32_t *)0xE000E018))
